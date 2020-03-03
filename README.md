@@ -1,7 +1,7 @@
-Texas Instruments HDC20XX Arduino Library
+Texas Instruments HDC20XX Energia Library
 ==========================================
 Description: 
-	The HDC20XX Library for Arduino allows for configuration and use of 
+	The HDC20XX Library for Energia allows for configuration and use of 
 	the HDC20XX without the need to use I2C or know the register mapping of 
 	the device. 
 	
@@ -11,18 +11,34 @@ Description:
 	
 ---------------------------------------------------------------------------------------
 Installation:
-	Extract or copy the HDC20XX Arduino Library folder into the 'libraries'
-	folder found in your Arduino Sketchbook. The example sketch will then
+	Extract or copy the HDC20XX Energia Library folder into the 'libraries'
+	folder found in your Energia Sketchbook. The example sketch will then
 	be available under 'custom libraries' when you select File-> Examples.
 	
 ---------------------------------------------------------------------------------------
 Contents:
-	HDC20XX.cpp 		- C++ File defining  behavior of HDC20XX methods
-	HDC20XX.h   		- Header file for HDC20XX.cpp
-	keywords.txt		- Keywords from HDC20XX.h
-	library.properties 	- Properties file for HDC20XX library
-	Examples 			- Holds HDC20XX example sketch
 
+	HDC20XX.cpp 		- C++ File defining  behavior of HDC20XX methods
+	
+	HDC20XX.h   		- Header file for HDC20XX.cpp
+	
+	keywords.txt		- Keywords from HDC20XX.h
+	
+	library.properties 	- Properties file for HDC20XX library
+	
+	Examples 			- Holds HDC20XX example sketches
+	
+		HDC20XX_Serial	- 1Hz Auto mode example using Library
+		
+		HDC2010_Automatic_08_23	- 1Hz Automatic Mode example for HDC2010, does not use library
+		
+		HDC2080_Automatic_08_23	- 1Hz Automatic Mode example for HDC2010, does not use library
+		
+		HDC2080_HDC2010_automatic_08_23	- 1Hz Automatic Mode example for HDC2010 & HDC2080, does not use library
+		
+		HDC2080_HDC2010_automatic_08_23	- 1Hz Automatic Mode example for HDC2010 & HDC2080, does not use library	
+		
+		
 ----------------------------------------------------------------------------------------
 
 Library Functions:
